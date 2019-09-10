@@ -1,0 +1,21 @@
+[package]
+name = "spiff-rs"
+version = "0.1.0"
+authors = ["Parker Timmerman <parker@parkertimmerman.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-rt = "0.2.5"
+actix-http = "0.2.9"
+actix-web = {version="1.0.7", features=["ssl"]}
+bytes = "0.4.12"
+futures = "0.1.28"
+ptp-rs = { path="../ptp-rs"}
+serde = "1.0.99"
+serde_derive = "1.0.99"
+serde_json = "1.0.40"
+toml = "0.5.3"
+twilio = "0.1.2"
+openssl = "0.10.24"
